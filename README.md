@@ -58,7 +58,7 @@ pip install whatthelang
 # Word cloud generator - https://github.com/amueller/word_cloud
 pip install wordcloud
 
-# Spell checker
+# Spell checker - https://github.com/mammothb/symspellpy
 pip install symspellpy
 
 # Gradient Boosting - https://xgboost.ai/
