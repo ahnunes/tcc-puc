@@ -4,6 +4,14 @@ Trabalho de Conclusão de Pós-graduação Lato Sensu em Ciência de Dados e Big
 
 Autor: Alexandre Henriques Nunes
 
+## Instruções
+
+O trabalho foi feito utilizando Python versão 3.7.5 64-bits. As dependências precisam ser instaladas antes de executar os scripts.
+
+O arquivo "data.zip" dentro do diretório "data" precisa ser descompactado antes da execução dos scripts.
+
+O script principal com o modelo chama main.py.
+
 ## Dependências
 
 ```
