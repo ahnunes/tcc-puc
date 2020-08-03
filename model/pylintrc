@@ -1,0 +1,8 @@
+[FORMAT]
+max-line-length=140
+argument-rgx=^[a-z][a-z0-9]*(_[a-z0-9]+)*$
+variable-rgx=^[a-z_][a-z0-9]*(_[a-z0-9]+)*$
+attr-rgx=^[a-z_][a-z0-9]*(_[a-z0-9]+)*$
+good-names=__dict__
+max-module-lines=2000
+include-naming-hint=y
