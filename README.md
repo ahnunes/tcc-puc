@@ -8,13 +8,26 @@ Autor: Alexandre Henriques Nunes
 
 O trabalho foi feito utilizando Python versão 3.7.5 64-bits. As dependências precisam ser instaladas antes de executar os scripts.
 
-O arquivo "data.zip" dentro do diretório "data" precisa ser descompactado antes da execução dos scripts.
+Existem dois projetos neste repositório, sendo o primeiro o scraper, responsável por extrair os dados necessários para o modeo. O segundo projeto é o model de aprendizado de máquina.
 
-O script principal com o modelo chama main.py.
+Pra rodar o scraper o seguinte comando pode ser utilizado dentro do diretório "scraper":
+
+```
+scrapy list | xargs -P 0 -n 1 scrapy crawl
+```
+
+Para rodar o model primeiramente o arquivo "data.zip" dentro do diretório "model/data" precisa ser descompactado e a seguir pode ser utilizado o seguinte comando dentro do diretório "model":
+
+```
+python main.py
+```
 
 ## Dependências
 
 ```
+# Framework for extracting from websites - https://scrapy.org/
+pip install Scrapy
+
 # Lightweight pipelining - https://joblib.readthedocs.io/
 pip install joblib
 
