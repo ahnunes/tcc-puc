@@ -72,4 +72,10 @@ pip install catboost
 
 # Deep Learning - https://www.tensorflow.org/
 pip install tensorflow
+
+# A set of utility functions for iterators, functions and dictionaries - https://github.com/pytoolz/toolz/
+pip install toolz
+
+# Portuguese data for Spacy - https://spacy.io/
+python -m spacy download pt
 ```
